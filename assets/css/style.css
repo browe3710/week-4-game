@@ -1,14 +1,20 @@
 body{
-   background: aqua
+   background: rgb(9, 236, 236)
 }
 div{
-	background-color: rgb(13, 177, 226);
-	margin: 10px;
-	width: 25%
+	background-color: rgb(36, 73, 240);
+	margin:0 auto;
+	clear: both;
+	text-align: center;
+	
 }
 div{
-	border: dotted  2px rgb(13, 231, 42);
+	border: double  2px rgb(231, 13, 13);
 	padding: 10px;
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+
 }
 h1, h3, span{
 	font-weight: bold;
@@ -26,29 +32,32 @@ ul {
 	text-indent: 20px;
 }
 
-.header, .gems{
-	background: #c2219a
+.header, .gems {
+	background: #c2219a1f
+	
 }
-.header, .instructions{
+ .instructions{
 	width: 50%;
+	
 }
 
 .numberToMatch, .winsAndLosses{
-	float: left;
-	width: 15%;
+	width: 25%;
 	height: 60px;
+	margin: 0 auto;
+	text-align: center;
 }
 .userTotal{
 	width: 15%;
 	height: 60px;
 }
 .gems{
-    width: 30%;
+    width: 50%;
     clear: both;
     
 }
 .gemImage{
-	height: 60px;
+	height: 100px;
     margin: 8px;
     
 }
